@@ -7,7 +7,7 @@
 body {
     background: var(--bg);
     color: var(--fontColor);
-    font-family: helvetica;
+    font-family: Arial;
 }
 
 li {
@@ -26,4 +26,9 @@ li {
 .dark-theme {
     --bg: var(--black);
     --fontColor: var(--green);
+}
+
+.medium-theme {
+    --bg: #ADD8E6;
+    --fontColor: #0000FF;
 }
