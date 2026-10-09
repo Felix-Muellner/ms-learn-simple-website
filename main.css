@@ -32,3 +32,15 @@ li {
     --bg: #ADD8E6;
     --fontColor: #0000FF;
 }
+
+.btn {
+  position: absolute;
+  top: 20px;
+  left: 250px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
